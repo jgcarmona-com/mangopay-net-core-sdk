@@ -2,6 +2,7 @@ MANGOPAY .NET CORE SDK
 =================================================
 MangopayNetCoreSDK is a Microsoft .NET Core client library to work with
 [Mangopay REST API](http://docs.mangopay.com/api-references/).
+
 ![Build](https://github.com/JuanGarciaCarmona/mangopay-net-core-sdk/workflows/Build/badge.svg)
 
 License
