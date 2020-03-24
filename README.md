@@ -1,3 +1,4 @@
+
 MANGOPAY .NET CORE SDK 
 =================================================
 MangopayNetCoreSDK is a Microsoft .NET Core client library to work with
@@ -12,15 +13,17 @@ The code is distributed as is and with no warranty. Use it at your own risk and 
 Installation and package dependencies
 -------------------------------------------------
 It is an extremely easy process, only two steps:
+
 1.- Add Mangopay configuration settings in appsettings.json file, it should look similar to:
 
-  "MangoPayApiConfiguration": {
-    "ClientId": "sdk-unit-tests",
-    "ClientPassword": "cqFfFrWfCcb7UadHNxx2C9Lo6Djw8ZduLi7J9USTmu8bhxxpju",
-    "BaseUrl": "https://api.sandbox.mangopay.com",
-    "Timeout": 0,
-    "ApiVersion": "v2.01"
-  }
+      "MangoPayApiConfiguration": {
+        "ClientId": "sdk-unit-tests",
+        "ClientPassword": "cqFfFrWfCcb7UadHNxx2C9Lo6Djw8ZduLi7J9USTmu8bhxxpju",
+        "BaseUrl": "https://api.sandbox.mangopay.com",
+        "Timeout": 0,
+        "ApiVersion": "v2.01"
+      }
+
 2.- In Startup class, resolve IConfiguration and in ConfigureServices method, call services.AddMangoPayServices(_configuration) extension method.
 
 
