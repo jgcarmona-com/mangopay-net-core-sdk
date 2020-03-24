@@ -7,7 +7,7 @@ MangopayNetCoreSDK is a Microsoft .NET Core client library to work with
 
 License
 -------------------------------------------------
-No license, no warranty. Use at your own risk and feel free to improve the library.
+The code is distributed as is and with no warranty. Use it at your own risk and feel free to improve the library acording to MIT license. See [LICENSE file](https://github.com/JuanGarciaCarmona/mangopay-net-core-sdk/blob/master/LICENSE).
 
 Installation and package dependencies
 -------------------------------------------------
