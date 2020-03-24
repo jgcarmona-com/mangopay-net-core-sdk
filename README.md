@@ -12,9 +12,11 @@ The code is distributed as is and with no warranty. Use it at your own risk and 
 
 Installation and package dependencies
 -------------------------------------------------
-It is an extremely easy process, only two steps:
+It is a three steps process:
 
-1.- Add Mangopay configuration settings in appsettings.json file, it should look similar to:
+1.- Install [Mangopay.NetCore.SDK](https://www.nuget.org/packages/Mangopay.NetCore.SDK) 
+
+2.- Add Mangopay configuration settings in appsettings.json file, it should look similar to:
 
       "MangoPayApiConfiguration": {
         "ClientId": "sdk-unit-tests",
@@ -24,7 +26,7 @@ It is an extremely easy process, only two steps:
         "ApiVersion": "v2.01"
       }
 
-2.- In Startup class, resolve IConfiguration and in ConfigureServices method, call services.AddMangoPayServices(_configuration) extension method.
+3.- In Startup class, resolve IConfiguration and in ConfigureServices method, call services.AddMangoPayServices(_configuration) extension method.
 
 
 Unit Tests
