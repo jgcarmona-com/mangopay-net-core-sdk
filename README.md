@@ -1,3 +1,4 @@
+![Build](https://github.com/JuanGarciaCarmona/mangopay-net-core-sdk/workflows/Build/badge.svg)
 MANGOPAY .NET CORE SDK 
 =================================================
 MangopayNetCoreSDK is a Microsoft .NET Core client library to work with
