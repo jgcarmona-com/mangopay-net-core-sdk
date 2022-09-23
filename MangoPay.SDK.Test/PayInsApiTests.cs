@@ -127,7 +127,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_PayIns_Create_CardDirect()
         {
             try
@@ -157,7 +157,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]        
         public void Test_Payins_CardDirect_Create_WithBilling()
         {
             try
@@ -188,7 +188,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_PayIns_Get_CardDirect()
         {
             try
@@ -209,7 +209,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_PayIns_CreateRefund_CardDirect()
         {
             try
@@ -233,7 +233,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_PayIns_PreAuthorizedDirect()
         {
             try

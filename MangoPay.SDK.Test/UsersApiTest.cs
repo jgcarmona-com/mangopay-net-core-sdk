@@ -626,7 +626,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Users_UpdateBankAccount()
         {
             try
@@ -672,7 +672,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public async Task Test_Users_SaveKycDocument()
         {
             try
@@ -724,7 +724,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public async Task Test_Users_CreateKycPageFromFile()
         {
             try
@@ -744,7 +744,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public async Task Test_Users_CreateKycPageFromBytes()
         {
             try
@@ -765,7 +765,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Users_AllCards()
         {
             try
@@ -806,7 +806,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Users_Transactions()
         {
             try
@@ -887,7 +887,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public async Task Test_Users_GetEmoney()
         {
             try
@@ -907,7 +907,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Users_GetEmoneyWithCurrency()
         {
             try
@@ -926,7 +926,7 @@ namespace MangoPay.SDK.Test
             }
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Users_GetTransactionsForBankAccount()
         {
             try

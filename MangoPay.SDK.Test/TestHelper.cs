@@ -557,7 +557,7 @@ namespace MangoPay.SDK.Test
         {
             RestClient client = new RestClient(cardRegistration.CardRegistrationURL);
 
-            RestRequest request = new RestRequest(Method.POST);
+            RestRequest request = new RestRequest("/resource/", Method.Post);
             request.AddParameter("data", cardRegistration.PreregistrationData);
             request.AddParameter("accessKeyRef", cardRegistration.AccessKey);
             request.AddParameter("cardNumber", "4970100000000154");
@@ -567,7 +567,7 @@ namespace MangoPay.SDK.Test
             // Payline requires TLS
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-            IRestResponse response = client.Execute(request);
+            var response = client.Execute(request);
 
             string responseString = response.Content;
 

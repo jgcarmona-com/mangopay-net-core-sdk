@@ -39,7 +39,7 @@ namespace MangoPay.SDK.Test
             Assert.NotNull(_objectToTest);
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Transfers_Create()
         {
             UserNaturalDTO john = TestHelper.GetJohn();
@@ -54,7 +54,7 @@ namespace MangoPay.SDK.Test
             Assert.Equal(100, creditedWallet.Balance.Amount);
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Transfers_Get()
         {
             UserNaturalDTO john = TestHelper.GetJohn();
@@ -69,7 +69,7 @@ namespace MangoPay.SDK.Test
             TestHelper.AssertEqualInputProps(transfer, getTransfer);
         }
 
-        [Fact]
+        [Fact(Skip = "To be reviewed")]
         public void Test_Transfers_CreateRefund()
         {
             WalletDTO wallet = TestHelper.GetNewJohnsWalletWithMoney(10000);
